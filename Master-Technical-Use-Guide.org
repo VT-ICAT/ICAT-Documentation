@@ -492,7 +492,6 @@ DISIS is a very flexible space, equipped with a 32 speakers, 2 subwoofers, a Beh
    #+attr_latex: :width 500px
    [[./.imagegit/disis-mcp-pd.png]]
 
-
    - *Note: Dante does not control any gain. Before playing audio to the DISIS speakers, lower the gain to 0% or to an appropriate gain.*
    - On Windows, there exist multiple different sound layers. If Dante Virtual Soundcard is set to ASIO, you will not find Dante Virtual Soundcard under the operating system's sound settings, but under an application's settings, like Purr-data or Max msp.
 
