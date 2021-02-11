@@ -425,7 +425,19 @@ DISIS is a very flexible space, equipped with a 32 speakers, 2 subwoofers, a Beh
 
 1. Open Dante Virtual Soundcard and click start if not already running
 
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
+   [[./.imagegit/dante-virtual-soundcard-logo-small.png]]
+   
+   #+attr_html: :width 500px
+   #+attr_latex: :width 500px
+   [[./.imagegit/disis-mcp-1c.png]]
+
 2. Open Dante Controller
+
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
+   [[./.imagegit/dante-controller-logo-small.png]]
 
 3. Find your computer name on the front of the computer
 
