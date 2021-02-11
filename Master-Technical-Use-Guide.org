@@ -413,7 +413,40 @@ ARIES lab provides a space for several research endeavors. Projects currently be
 *** Research
 *** Getting Started in DISIS for Sound Work
 
-For more detailed information complete with pictures, look at [[./DISIS-use-guide.pdf]]
+*For more detailed information complete with pictures, look at [[./DISIS-use-guide.pdf]]*
+
+DISIS is a very flexible space, equipped with a 32 speakers, 2 subwoofers, a Behringer X32 mixer, and many computers that can use the speakers through Dante. Although the space is flexible, with all of its moving parts, it can get confusing quickly. For a good overview of the different methods of using the space, look into the detailed guide: [[./DISIS-use-guide.pdf]].
+
+#+attr_html: :width 500px
+#+attr_latex: :width 500px
+[[./.imagegit/DISIS-signal-flow-diagram.png]]
+
+**** Multichannel Playback in DISIS
+
+1. Open Dante Virtual Soundcard and click start if not already running
+
+2. Open Dante Controller
+
+3. Find your computer name on the front of the computer
+
+4. Look for your computer name on the top of the routing matrix. Remember, that audio routes from top to the left of Dante Controller
+
+5. Find unD32 device on the left of the matrix. The unD32 device is hardware that routes to the speakers in DISIS. 
+
+6. Expand all of the channels on the unD32 device with the plus box between your computer name and unD32
+
+7. Make sure your computer's application's gain is set to 0%.
+
+8. Control+left-click on + or - box between your computer's name and unD32 to route all of your computer's channels to all of the speakers sequentially.
+   - *Note: only one device can be sending channels out to the unD32 device's inputs, meaning individual speakers in DISIS*
+   - Adjust your channels if you want different outputs going to different speakers by adjusting the matrix sends manually (click on the channel boxes that you would like to send to.)
+   - The speakers in DISIS only runs at 48khz sampling rate.
+
+9. Route you computer's application's audio to Dante Virtual Soundcard
+   - *Note: Dante does not conttrol any gain. Before playing audio to the DISIS speakers, lower the gain to 0% or to an appropriate gain.*
+   - *Note: On Windows, there exist multiple different sound layers. If Dante Virtual Soundcard is set to ASIO, you will not find Dante Virtual Soundcard under the operating system's sound settings, but under an application's settings, like Purr-data or Max msp.
+
+10. Turn up computer's application's gain *_slowly_* while playing audio to confirm.
 
 * Troubleshooting
 
