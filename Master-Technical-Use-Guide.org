@@ -6,7 +6,7 @@
 This guide provides research students and faculty with instructions to getting started in the spatial audio studios located on the Virginia Tech Campus. Troubleshooting solutions are provided to guide users through common issues.
 
 * Keyboard Shortcuts
-
+  
 - C = Ctrl (Windows) and Cmd (Mac)
 - A = Alt (Windows) and Option (Mac) 
 
@@ -387,6 +387,9 @@ From here, you should be ready to route sound, assuming the computer is set up f
 
 The Applied Research in Immersive Environments and Simulations (ARIES) Lab is located on the fourth floor of the Newman Library. 
 
+
+
+
 *** System Specifications
 
 - The space is equipped with a 4.1 spatial audio setup composed of five Genelec speakers (four 4420A Smart IP speakers and one 7040A 6.5-inch cone subwoofer). 
@@ -399,6 +402,18 @@ The Applied Research in Immersive Environments and Simulations (ARIES) Lab is lo
 *** Research
 
 ARIES lab provides a space for several research endeavors. Projects currently being developed and tested in the space include a VR animal anatomy visualization platform, VR sports with motion capture ball and joint tracking, and historical visualizations utilizing LiDAr point-cloud renderings. 
+
+** DISIS Lab
+
+*** About
+
+# The DISIS (Digital Interactive Sound & Intermedia Studio) sound studio is a lab 
+
+*** System Specifications
+*** Research
+*** Getting Started in DISIS for Sound Work
+
+For more detailed information complete with pictures, look at [[./DISIS-use-guide.pdf]]
 
 * Troubleshooting
 
