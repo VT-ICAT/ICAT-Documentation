@@ -1,6 +1,6 @@
 # Quick Links to Documentation
 
-You can view the documentation directly here: https://github.com/icatimmersive/ICAT-Documentation/blob/main/Master-Technical-Use-Guide.org
+You can view the documentation directly [here](https://github.com/icatimmersive/ICAT-Documentation/blob/main/Master-Technical-Use-Guide.org).
 
 # ICAT Documentation
 
