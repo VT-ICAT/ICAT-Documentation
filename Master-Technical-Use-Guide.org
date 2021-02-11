@@ -461,7 +461,7 @@ ARIES lab provides a space for several research endeavors. Projects currently be
 # Workflow:
 # 
 # Dante
-# 
+# #
 # Audinate’s Dante is a networking protocol that allows for the user to easily handle complex audio-visual situations. 
 # Dante Controller: this matrix displays how signals can be transmitted and received by various hardware units communicating via Dante network.
 # [IMAGE]
