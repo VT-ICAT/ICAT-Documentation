@@ -410,12 +410,16 @@ ARIES lab provides a space for several research endeavors. Projects currently be
 # The DISIS (Digital Interactive Sound & Intermedia Studio) sound studio is a lab 
 
 *** System Specifications
-*** Research
-*** Getting Started in DISIS for Sound Work
-
-*For more detailed information complete with pictures, look at [[./DISIS-use-guide.pdf]]*
 
 DISIS is a very flexible space, equipped with a 32 speakers, 2 subwoofers, a Behringer X32 mixer, and many computers that can use the speakers through Dante. Although the space is flexible, with all of its moving parts, it can get confusing quickly. For a good overview of the different methods of using the space, look into the detailed guide: [[./DISIS-use-guide.pdf]].
+
+*** Research
+
+DISIS is home to Virginia Tech's Composition studio, Linux Laptop Orchestra (L2ork), and computer music classes.  
+
+*** Getting Started in DISIS for Sound Work
+
+*For more detailed information, complete with pictures, look at [[./DISIS-use-guide.pdf]]*
 
 #+attr_html: :width 500px
 #+attr_latex: :width 500px
