@@ -499,7 +499,7 @@ DISIS is home to Virginia Tech's Composition studio, Linux Laptop Orchestra (L2o
    - *Note: Dante does not control any gain. Before playing audio to the DISIS speakers, lower the gain to 0% or to an appropriate gain.*
    - On Windows, there exist multiple different sound layers. If Dante Virtual Soundcard is set to ASIO, you will not find Dante Virtual Soundcard under the operating system's sound settings, but under an application's settings, like Purr-data or Max msp.
 
-10. Turn up computer's application's gain _slowly_ while playing audio to confirm.
+10. Turn up computer's application's gain *slowly* while playing audio to confirm.
 
 * Troubleshooting
 
