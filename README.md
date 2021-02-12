@@ -16,6 +16,6 @@ If there are changes that need to be made, feel free to make a pull request and 
 
 3. Pictures for documentation should go in the .imagegit folder for use within the repository.
 
-# Credits
+<!-- # Credits -->
 
-Include names and/or email addresses here if people feel comfortable doing that.
+<!-- Include names and/or email addresses here if people feel comfortable doing that. -->
