@@ -6,9 +6,11 @@ You can view the documentation directly [here](https://github.com/icatimmersive/
 
 This repository is for anyone coming to the ICAT spaces. It hosts a wide variety of documentation, patches, and programs for use at ICAT to make your life easier. It can be cloned to your local computer for later use.
 
+It also includes some useful programs and patches for use in the ICAT facilities. Some of this includes Reaper Template files, Max msp patches, and pd-l2ork patches that ICAT has developed in house for use in its facilities. 
+
 If there are changes that need to be made, feel free to make a pull request and we can make the appropriate changes.
 
-# Rules for Pushing to the Repository
+# Guidelines for Contributing to the Repository
 
 1. Avoid using spaces in file names. This will make working with git much harder. Use hyphens instead: This-is-a-file.txt, instead of "This is a file.txt"
 
