@@ -53,7 +53,7 @@ If there is a specific routing that you need for your project, whether that mean
 
 1. Launch Dante Controller 
 
-   [[./.imagegit/DVS_Icon.png]]
+   [[./.imagegit/dante-controller-logo-small.png]]
 
 2. Make sure you are under the Routing tab 
 
