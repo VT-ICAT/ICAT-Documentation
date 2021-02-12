@@ -93,11 +93,11 @@ Dante Virtual Soundcard is a piece of software to allow for audio output from st
    [[./.imagegit/DVS_Icon.png]]
 
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
-   - *_In the Cube_* - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
+   - *In the Cube* - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
 
       [[./.imagegit/dante-virtual-soundcard-cube-settings.png]]
 
-   - *_In Perform Studio_* - you will need at least 32x32
+   - *In Perform Studio* - you will need at least 32x32
 
       #+attr_html: :width 500px
       #+attr_latex: :width 500px
