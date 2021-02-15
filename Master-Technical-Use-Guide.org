@@ -132,7 +132,7 @@ _See the Reaper-Templates folder to get some instantly-usable Reaper project set
    - Output Device: Liono
    - Check the box Request Sample Rate and set: 48000 
 
-   [[./.imagegit/reaper-cube-audio-settings.png]] *[Need to number this]*
+   [[./.imagegit/reaper-cube-audio-settings-marked.jpg]]
 
 4. Hit Apply, and hit OK.
 
