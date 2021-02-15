@@ -218,7 +218,7 @@ To spatialize from Reaper to Max msp, ICAT has a Reaper template that can be loa
 
 1. File > Project Templates > 64ChannelSpatialMixerTEMPLATE
 
-2. At ICAT, we have bound custom shortcuts for Reaper to help with automating ambisonic routings:
+2. At ICAT, we have bound custom shortcuts for Reaper to help with automating Ambisonics routing:
    - C+(shift)+G - Show all automation lanes of a selected track
    - C+(shift)+H - Hide all automation lanes
 
