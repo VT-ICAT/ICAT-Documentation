@@ -1,6 +1,13 @@
 # This was worked on by Brandon Hale, Charlie Duff, and Tanner Upthegrove
 # Use the @Tag to mark who you are to make notes to the rest of the team
 
+# For images, use these dimensions:
+# Large: 1000px
+# Medium: 800px
+# Small: 500px
+# Icons: 80px
+# Otherwise, don't mark images with size if the image is relatively small
+
 * Overview
 
 This guide provides research students and faculty with instructions to getting started in the spatial audio studios located on the Virginia Tech Campus. Troubleshooting solutions are provided to guide users through common issues.
@@ -16,6 +23,8 @@ This guide provides research students and faculty with instructions to getting s
 
 Dante Controller is a software application that interfaces users to all hardware devices connected to the associated Dante network. This is the foundation of routing audio in the ICAT facilities. Dante Controller presets have been pre-configured for each of the ICAT spaces, however there are circumstances that require routing adjustments.
  
+   #+attr_html: :width 1000px
+   #+attr_latex: :width 1000px
    [[./.imagegit/7_DC_MacOS_Tx_to_unD32.png]]
 
 *** Loading the Default Presets
@@ -35,8 +44,8 @@ Dante Controller is a software application that interfaces users to all hardware
    2. Click All on the left pane of Preset Elements
    3. Click Select All
    4. Click Ok 
-   #+attr_html: :width 500px
-   #+attr_latex: :width 500px
+   #+attr_html: :width 1000px
+   #+attr_latex: :width 1000px
    [[./.imagegit/1_DC_ApplyPreset_numbered.png]]
 
 5) Wait for Dante Controller to apply the preset settings 
@@ -53,21 +62,28 @@ If there is a specific routing that you need for your project, whether that mean
 
 1. Launch Dante Controller 
 
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
    [[./.imagegit/dante-controller-logo-small.png]]
 
 2. Make sure you are under the Routing tab 
 
 3. Signal flows from the Dante Transmitters at the top of the patchbay, to the Dante Receivers at the left of the patchbay. 
-   #+attr_html: :width 500px
-   #+attr_latex: :width 500px
+
+   #+attr_html: :width 800px
+   #+attr_latex: :width 800px
    [[./.imagegit/dante-controller-audio-signal-flow.png]]
 
 4. Use the plus boxes to reveal the channels on both the Transmitters and Receivers. 
 
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
    [[./.imagegit/dante-plus-box.png]]
 
 5. Click the box between the Transmitters and Receivers to route the audio, and wait for the channel to be routed until the green checkmark appears.
 
+   #+attr_html: :width 80px
+   #+attr_latex: :width 80px
    [[./.imagegit/dante-green-checkmark.png]]
 
 6. To remove a channel, click the green check where you want to remove a routing.
@@ -95,7 +111,9 @@ Dante Virtual Soundcard is a piece of software to allow for audio output from st
 2. Under the Settings Tab, make sure the amount of channels you want to use are correctly assigned. 
    - *In the Cube* - you will want 16x16 to drive the 10 stage speakers, and 2 LFE Subwoofers
 
-      [[./.imagegit/dante-virtual-soundcard-cube-settings.png]]
+   #+attr_html: :width 500px
+   #+attr_latex: :width 500px
+   [[./.imagegit/dante-virtual-soundcard-cube-settings.png]]
 
    - *In Perform Studio* - you will need at least 32x32
 
@@ -345,7 +363,9 @@ The Cube is a four-story tall black box theater and lab with 140 individually ad
 
 The Cube is equipped with 140 loudspeakers with five levels of height. It has 4 sub-woofers, 2 lfes, and ceiling speakers.
 
-     [[./.imagegit/cube-signal-flow-diagram.png]]
+   #+attr_html: :width 1000px
+   #+attr_latex: :width 1000px
+   [[./.imagegit/cube-signal-flow-diagram.png]]
 
 *** Research
 
