@@ -1,0 +1,12 @@
+SCR 4 0 RS1ee9bb229dabffe151848d7efa3c10f748e1a1cf "Custom: lyrics.lua" Cockos/lyrics.lua
+SCR 4 32060 RS7d3c_1ee9bb229dabffe151848d7efa3c10f748e1a1cf "Custom: lyrics.lua" Cockos/lyrics.lua
+SCR 4 0 RS1911ddd969ddac7c87772a4cfef22ba6bbb29798 "Custom: make sends.lua" "make sends.lua"
+KEY 24 47 24900 0
+KEY 25 69 24901 0
+KEY 13 83 40290 0
+KEY 13 82 40324 0
+KEY 13 69 40330 0
+KEY 13 73 40334 0
+KEY 13 71 40888 0
+KEY 29 71 41149 0
+KEY 13 72 41150 0

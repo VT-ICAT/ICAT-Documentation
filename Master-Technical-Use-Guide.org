@@ -218,9 +218,11 @@ To spatialize from Reaper to Max msp, ICAT has a Reaper template that can be loa
 
 1. File > Project Templates > 64ChannelSpatialMixerTEMPLATE
 
-2. At ICAT, we have bound custom shortcuts for Reaper to help with automating Ambisonics routing:
-   - C+(shift)+G - Show all automation lanes of a selected track
-   - C+(shift)+H - Hide all automation lanes
+2. At ICAT, we have bound custom shortcuts for Reaper to help with automating Ambisonics routing. You can use these in the ICAT facilities, or bind them to your own copy of Reaper:
+   - C+(shift)+G - Envelope: Show all active envelopes for tracks
+   - C+(shift)+H - Envelope: Hide all envelopes for all tracks
+
+Open [[./Reaper-Templates/ICAT-automation-shortcuts.ReaperKeyMap][ICAT-automation-shortcuts]] for a Reaper keymap import for just these two keybindings, or [[./Reaper-Templates/ICAT-all.ReaperKeyMap][ICAT-all]] for the entire ICAT custom keymap to get all of ICAT's custom keybindings.
 
 This template has 64 Reaper tracks preloaded with the dummy plugin, a plugin designed to send osc to ICAT’s Max msp template. Reaper tracks 1-64 correspond to Max msp inputs 1-64. You can now draw in Azimuth, Elevation, Distance, and Spread for each track/channel.
 
