@@ -353,17 +353,17 @@ The Cube is equipped with 140 loudspeakers with five levels of height. It has 4 
 
    #+attr_html: :width 300px
    #+attr_latex: :width 300px
-   [[./.imagegit/cube-going-to-lights-panel.jpg]]
+   [[./.imagegit/cube-going-to-lights-panel-marked-small.png]]
 
    #+attr_html: :width 300px
    #+attr_latex: :width 300px
-   [[./.imagegit/cube-lights-panel.jpg]]
+   [[./.imagegit/cube-lights-panel-small.jpg]]
 
 3. Find the white remote to turn on the speakers. It is usually located under the Cube computer. 
 
    #+attr_html: :width 300px
    #+attr_latex: :width 300px
-   [[./.imagegit/cube-remote.jpg]]
+   [[./.imagegit/cube-remote-small.jpg]]
 
 4. Click any ON button on it and wave it around your head to turn on the speaker amplifiers. You should hear a crackle that signals they have been turned on.
 
