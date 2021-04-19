@@ -1,0 +1,7 @@
+* Max Patches
+
+| Patch           | What the patch does                                                               |
+|-----------------+-----------------------------------------------------------------------------------|
+| [[./clicktrack.maxpat][clicktrack]]      | Abstraction patch that can be used to make a click track easily in another patch. |
+| [[./clicktracktest.maxpat][clicktrack-test]] | Test patch for [[clicktrack.maxpat]]. Use this to understand how [[clicktrack.maxpat]] works. |
+|                 |                                                                                   |

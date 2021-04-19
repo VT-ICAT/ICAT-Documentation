@@ -1,0 +1,7 @@
+* Pd-l2ork Patches
+
+| Patch               | What it does                                                                                                                            |
+|---------------------+-----------------------------------------------------------------------------------------------------------------------------------------|
+| [[./multichanneltester.pd][multichannel-tester]] | Easily send pink noise bursts to huge numbers of speakers. This patch is great for ICAT's spaces including the Cube and Perform Studio. |
+| [[./sendtoanywhere.pd][send-to-anywhere]]    | Pd abstraction that can be used in other patches to easily send audio to a speaker and change the output on the fly.                    |
+|                     |                                                                                                                                         |
