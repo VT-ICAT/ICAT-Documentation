@@ -6,6 +6,10 @@
 
 - [[./Reaper-Templates][Reaper Project File Templates]]
 
+- [[./pd-l2ork-patches][Pd-l2ork Helper Patches]]
+
+- [[./max-patches][Max Helper Patches]]  
+
 * What Does This Include?
 
 This repository is for anyone coming to the ICAT spaces. It hosts a wide variety of documentation, patches, and programs for use at ICAT to make your life easier. It can be cloned to your local computer for later use.
