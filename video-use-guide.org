@@ -1,0 +1,74 @@
+* Overview
+
+  This guide should provide information on how to use and successfully setup a video project using the ICAT studios located on the Virginia Tech Campus. It should help you get up and running and provide troubleshooting details to help with any problems you might face.
+
+* Keyboard Shortcuts
+  
+- C = Ctrl (Windows) and Cmd (Mac)
+- A = Alt (Windows) and Option (Mac) 
+
+* Facilities
+
+** The Cube
+
+   # Explain what video options the Cube has to offer. 
+
+*** The Cyclorama
+
+    # Explain a little bit about what the Cyclorama is and what it's used for.
+    
+**** Lowering and Raising the Cyclorama
+
+***** Using the Controller 
+  
+      # What is this controller called? It's the computer that hooks into the wall to then control the cyclorama computers.
+
+**** Remoting into the Cyclorama Computer
+
+***** About the Cyclorama Computer  
+
+      # Provide some general information on the Cube's setup and why there is a separate computer.
+   
+***** Using Teamviewer 
+
+      # Provide details on how to remote into the computer that controls the Cyclorama. 
+
+**** Calibrating the Cyclorama     
+
+     # Explain this process step-by-step in a list, or with more headers if there is a lot of detail to go over.
+     
+**** Using Worldviewer
+
+     # Should be a comprehensive guide on Worldviewer. Explain how chapters work, how to stretch images over the Cyclorama, and how to even do stereoscopic video. Put all of these in separate headers.
+
+***** Worldviewer OSC Commands
+
+     # Include a list of OSC commands to interact with Worldviewer. Put them in a table so it is easy to see which comands do what. Include if the paths take floats, strings, or integers as well (that could be a separate column).
+
+***** Loading Media Files     
+
+      # Include where media files should be put on the Cyclorama computer and how to load them into Worldviewer.
+      
+***** Chapters
+
+***** Stretching Images to Fit the Cyclorama
+
+***** Stereoscopic Video      
+
+**** Routing Audio from the Cyclorama to the Cube Speakers      
+
+     # Explain how to do this, both with the old setup we used to do (Cyc does just video, Cube has audio of video -> max to spatialize; and sends osc messages to Worldviewer for video playback), and the new setup (Cyc plays the audio -> cube max receives and spatializes directly).
+
+***** Hardware Used to Spatialize
+
+***** Audio Routing Overview
+
+      # Maybe put a graph/diagram here of the two workflows used to play audio and video together in the cube.
+
+*** Routing Video Signals through the Cube's Walls
+
+    # Explain the Cube's huge patchbay and how to use the wall panels to route video (maybe include how to do this in the [[./audio-use-guide.org]] as well).
+    
+* Troubleshooting
+
+  # Include common troubleshooting problems and how to solve them
