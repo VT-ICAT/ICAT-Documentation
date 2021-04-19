@@ -4,6 +4,8 @@
 
 - [[./disis-use-guide.pdf][DISIS Use Guide]]
 
+- [[./Reaper-Templates][Reaper Project File Templates]]
+
 * What Does This Include?
 
 This repository is for anyone coming to the ICAT spaces. It hosts a wide variety of documentation, patches, and programs for use at ICAT to make your life easier. It can be cloned to your local computer for later use.
