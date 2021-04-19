@@ -1,8 +1,10 @@
-# Quick Links to Documentation
+* Quick Links to Documentation
 
-You can view the documentation directly [here](https://github.com/icatimmersive/ICAT-Documentation/blob/main/Audio-Use-Guide.org).
+- [[./Audio-Use-Guide.org][Audio Documentation]]
 
-# What Does This Include?
+- [[./DISIS-use-guide.pdf][DISIS Use Guide]]
+
+* What Does This Include?
 
 This repository is for anyone coming to the ICAT spaces. It hosts a wide variety of documentation, patches, and programs for use at ICAT to make your life easier. It can be cloned to your local computer for later use.
 
@@ -10,7 +12,7 @@ It also includes some useful programs and patches for use in the ICAT facilities
 
 If there are changes that need to be made, feel free to make a pull request and we can make the appropriate changes.
 
-# Guidelines for Contributing to the Repository
+* Guidelines for Contributing to the Repository
 
 1. Avoid using spaces in file names. Spaces can make working with git (or in a shell) much harder. Use hyphens instead: This-is-a-file.txt, instead of "This is a file.txt"
 
@@ -18,6 +20,6 @@ If there are changes that need to be made, feel free to make a pull request and 
 
 3. Pictures for documentation should go in the .imagegit folder for use within the repository.
 
-<!-- # Credits -->
+# Credits
 
-<!-- Include names and/or email addresses here if people feel comfortable doing that. -->
+# Include names and/or email addresses here if people feel comfortable doing that.
