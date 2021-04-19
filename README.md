@@ -1,6 +1,6 @@
 # Quick Links to Documentation
 
-You can view the documentation directly [here](https://github.com/icatimmersive/ICAT-Documentation/blob/main/Master-Technical-Use-Guide.org).
+You can view the documentation directly [here](https://github.com/icatimmersive/ICAT-Documentation/blob/main/Audio-Use-Guide.org).
 
 # What Does This Include?
 
@@ -12,7 +12,7 @@ If there are changes that need to be made, feel free to make a pull request and 
 
 # Guidelines for Contributing to the Repository
 
-1. Avoid using spaces in file names. This will make working with git much harder. Use hyphens instead: This-is-a-file.txt, instead of "This is a file.txt"
+1. Avoid using spaces in file names. Spaces can make working with git (or in a shell) much harder. Use hyphens instead: This-is-a-file.txt, instead of "This is a file.txt"
 
 2. When making commits, make sure to include enough information so we know what changed from the previous version. Be specific! This will make our lives easier when it comes to documenting our documentation.
 
