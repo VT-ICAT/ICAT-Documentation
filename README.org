@@ -1,8 +1,8 @@
 * Quick Links to Documentation
 
-- [[./Audio-Use-Guide.org][Audio Documentation]]
+- [[./audio-use-guide.org][Audio Documentation]]
 
-- [[./DISIS-use-guide.pdf][DISIS Use Guide]]
+- [[./disis-use-guide.pdf][DISIS Use Guide]]
 
 * What Does This Include?
 
