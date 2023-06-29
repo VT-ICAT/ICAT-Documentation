@@ -1,5 +1,7 @@
 * Quick Links to Documentation
 
+- [[./cube-diagrams][Cube Diagrams]]
+
 - [[./audio-use-guide.org][Audio Documentation]]
 
 - [[./disis-use-guide.pdf][DISIS Use Guide]]
@@ -8,7 +10,7 @@
 
 - [[./pd-l2ork-patches][Pd-l2ork Helper Patches]]
 
-- [[./max-patches][Max Helper Patches]]  
+- [[./max-patches][Max Helper Patches]]
 
 * What Does This Include?
 
