@@ -4,6 +4,18 @@ Before trying any of the templates that involve sending OSC to Max, it is recomm
 
 After installing/copying the two files, make sure to enable the OSC pattern config called Max in Reaper. In Reaper, go to _Options>Preferences>Control/OSC/Web_ and add an OSC control surface mode. Follow ![reaper-install-osc-1](../.imagegit/reaper-install-osc-1.png "") and ![reaper-install-osc-2](../.imagegit/reaper-install-osc-2.png "") and match your settings.
 
+OSC Setting Name | Value
+---------------- | -----
+Control surface mode | OSC (Open Sound Control)
+Device Name | Max
+Pattern Config | Max
+Mode | Device IP/port [send only]
+Device Port | 9000
+Device IP | 127.0.0.1
+Allow binding messages to Reaper actions and FX learn | unchecked
+Outgoing max packet size | 1024
+Wait between packets | 5 ms
+
 File | What it does
 ---- | ------------
 [dummy](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/dummy) | A reaper js plugin used for sending OSC coordinates to Max msp. This plugin allows for sending needed OSC data from Reaper to Max, after setting up OSC routings correctly in Reaper. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_ and copy to the _Effects_ folder. For more information on how to install the plugin, use [this video](https://youtu.be/9EegrN-gF5o). 
