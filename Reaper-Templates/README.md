@@ -2,7 +2,6 @@
 
 Before trying any of the templates that involve sending OSC to Max, it is recommended to install the [dummy](./dummy) and [Max.ReaperOSC](./Max.ReaperOSC) files. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_. In the resource path folder, copy [dummy](./dummy) to Effects and [Max.ReaperOSC](./Max.ReaperOSC) to the OSC folder. 
 
-# Include instructions for this.
 After installing, make sure to enable the OSC pattern config called Max in Reaper.
 
 Template | What it does
