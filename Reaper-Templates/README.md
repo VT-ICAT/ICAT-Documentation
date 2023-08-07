@@ -1,5 +1,7 @@
 # Reaper Templates
 
+Before trying any of the templates that involve sending OSC to Max, it is recommended to install the [dummy](./dummy) and [Max.ReaperOSC](./Max.ReaperOSC) files. 
+
 Template | What it does
 -------- | ------------
 [CUBE_140TracksTemplate](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/CUBE_140TracksTemplate.RPP) | Routes 140 tracks to the Cube's 140 Loudspeakers, including the Subs and LFEs
