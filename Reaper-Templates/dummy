@@ -1,0 +1,14 @@
+// This effect Copyright (C) 2004 and later Cockos Incorporated
+// License: GPL - http://www.gnu.org/licenses/gpl.html
+desc: dummy
+slider1:0.<0,359,0.1>Azimuth
+slider2:0.<0.,90.,0.5>Elevation
+slider3:0.1<0.,1.,0.01>Distance
+slider4:0.1<0.,100.,0.1>Spread
+
+
+@slider
+
+@block
+
+@sample
