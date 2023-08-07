@@ -2,6 +2,11 @@
 
 Before trying any of the templates that involve sending OSC to Max, it is recommended to install the [dummy](./dummy) and [Max.ReaperOSC](./Max.ReaperOSC) files. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_. In the resource path folder, copy [dummy](./dummy) to Effects and [Max.ReaperOSC](./Max.ReaperOSC) to the OSC folder. 
 
+File | What it does
+---- | ------------
+[dummy](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/dummy) | A reaper js plugin used for sending OSC coordinates to Max msp. This plugin allows for sending needed OSC data from Reaper to Max, after setting up OSC routings correctly in Reaper. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_ and copy to the _Effects_ folder. For more information on how to install the plugin, use [this video](https://youtu.be/9EegrN-gF5o). 
+[Max.ReaperOSC](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/Max.ReaperOSC) | OSC settings for reaper for sending ambisonic coordinates to Max msp. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_ and copy to the OSC folder.
+
 After installing/copying the two files, make sure to enable the OSC pattern config called Max in Reaper. In Reaper, go to _Options>Preferences>Control/OSC/Web_ and add an OSC control surface mode. Follow ![reaper-install-osc-1](../.imagegit/reaper-install-osc-1.png "") and ![reaper-install-osc-2](../.imagegit/reaper-install-osc-2.png "") and match your settings.
 
 OSC Setting Name | Value
@@ -16,10 +21,7 @@ Allow binding messages to Reaper actions and FX learn | unchecked
 Outgoing max packet size | 1024
 Wait between packets | 5 ms
 
-File | What it does
----- | ------------
-[dummy](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/dummy) | A reaper js plugin used for sending OSC coordinates to Max msp. This plugin allows for sending needed OSC data from Reaper to Max, after setting up OSC routings correctly in Reaper. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_ and copy to the _Effects_ folder. For more information on how to install the plugin, use [this video](https://youtu.be/9EegrN-gF5o). 
-[Max.ReaperOSC](https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/Max.ReaperOSC) | OSC settings for reaper for sending ambisonic coordinates to Max msp. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_ and copy to the OSC folder.
+Below are the Reaper templates. Make sure to install the prerequisites from above and to keep in mind some of the templates require [Max patches](../max-patches).
 
 Template | What it does
 -------- | ------------
