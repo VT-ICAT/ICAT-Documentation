@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 218.0, 112.0, 1277.0, 785.0 ],
+		"rect" : [ 296.0, 85.0, 1277.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,17 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 960.0, 754.0, 100.0, 22.0 ],
-					"text" : "print things"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
@@ -94,6 +83,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -102,7 +92,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 26.0, 30.0, 30.0 ]
 								}
 
@@ -130,7 +120,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 561.334595000000149, 710.0, 100.0, 22.0 ],
+					"patching_rect" : [ 615.0, 732.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -231,8 +221,8 @@
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 826.59999817609787, -29.0, 74.0, 22.0 ],
 					"text" : "xyzpanner 6"
 				}
@@ -283,8 +273,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 949.0, -29.0, 76.0, 22.0 ],
 					"text" : "aedpanner 6"
 				}
@@ -3530,7 +3520,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 622.834595000000036, 642.0, 59.0, 21.0 ],
+					"patching_rect" : [ 770.33325200000013, 715.019531000000029, 59.0, 21.0 ],
 					"text" : "r lscoords"
 				}
 
@@ -5880,13 +5870,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-67", 3 ],
 					"source" : [ "obj-23", 3 ]
 				}
@@ -8094,13 +8077,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -10295,12 +10271,26 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "aedpanner.maxpat",
+				"bootpath" : "Z:/To Windows/ICAT-Documentation/max-patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ambiencode~.mxe64",
 				"type" : "mx64"
 			}
 , 			{
 				"name" : "ambimonitor.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "ambipanner.maxpat",
+				"bootpath" : "Z:/To Windows/ICAT-Documentation/max-patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "ambipanning~.mxe64",
@@ -10317,6 +10307,13 @@
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "xyzpanner.maxpat",
+				"bootpath" : "Z:/To Windows/ICAT-Documentation/max-patches",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
