@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 733.0, 196.0, 941.0, 581.0 ],
+		"rect" : [ 451.0, 334.0, 941.0, 581.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -558,21 +558,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-80",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 76.43493599999988, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 167.923095999999987, 22.932800000000043, 150.0, 33.0 ],
-					"text" : "Wet Ambisonic is post dry ambisonics"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -580,7 +565,7 @@
 					"patching_rect" : [ 403.0, 465.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 751.0, 466.932800000000043, 123.0, 33.0 ],
+					"presentation_rect" : [ 751.0, 466.932800000000043, 123.0, 34.0 ],
 					"text" : "Does ambisonics, no vbap"
 				}
 
@@ -592,10 +577,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 595.0, 502.0, 150.0, 47.0 ],
+					"patching_rect" : [ 595.0, 502.0, 150.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 751.0, 501.932799999999986, 122.0, 47.0 ],
+					"presentation_rect" : [ 751.0, 501.932799999999986, 122.0, 48.0 ],
 					"text" : "Modified Tanner Upthegrove's patch by Brandon Hale"
 				}
 
@@ -635,7 +620,7 @@
 					"patching_rect" : [ 50.0, 307.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 74.5, 78.5, 74.0, 33.0 ],
+					"presentation_rect" : [ 74.5, 78.5, 74.0, 34.0 ],
 					"text" : "Dry ambisonic"
 				}
 
@@ -663,9 +648,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 838.591387152514585, 145.201566364385855, 83.60728184748541, 130.410922771228115 ],
+					"patching_rect" : [ 838.591387152514585, 145.201566364385855, 83.60728184748541, 125.410922771228115 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 719.0, 19.0, 199.999999999999972, 304.999999999999943 ]
+					"presentation_rect" : [ 719.0, 19.0, 199.999999999999972, 299.999999999999943 ]
 				}
 
 			}
@@ -1299,7 +1284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 64,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 33.722222222222229, 21.0, 246.0, 76.0 ],
+					"patching_rect" : [ 33.722222222222229, 21.0, 246.0, 77.0 ],
 					"text" : "adc~ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64",
 					"varname" : "the-adc"
 				}
@@ -1361,7 +1346,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1225.0, 44.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1225.0, 44.0, 150.0, 34.0 ],
 					"text" : "Contains midi controls for Cube's nanokontroller"
 				}
 
@@ -1373,7 +1358,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1267.0, 100.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1267.0, 100.0, 150.0, 34.0 ],
 					"text" : "Contains a sinewave mover for coordinates"
 				}
 
@@ -1880,7 +1865,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 617.923095999999987, 230.5, 150.0, 33.0 ],
+					"patching_rect" : [ 617.923095999999987, 230.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.923095999999987, 375.5, 211.0, 20.0 ],
 					"text" : "<--- Change the reverb here"
@@ -2440,7 +2425,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.0, 241.0, 100.0, 22.0 ],
-					"prefix" : "~/Documents/Max 8/Packages/FFTease 3.0 Package/media/Impulse Responses/",
+					"prefix" : "Impulse Responses",
 					"presentation" : 1,
 					"presentation_rect" : [ 61.5, 372.0, 100.0, 22.0 ]
 				}
@@ -2628,7 +2613,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 883.423095999999987, 474.638184000000138, 52.0, 49.0 ],
+					"patching_rect" : [ 883.423095999999987, 474.638184000000138, 52.0, 50.0 ],
 					"text" : "aed 1 -90. 0. 0.4 1"
 				}
 
@@ -2666,9 +2651,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 978.0, 173.0, 199.999999999999972, 304.999999999999943 ],
+					"patching_rect" : [ 978.0, 173.0, 199.999999999999972, 299.999999999999943 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 423.0, 19.0, 200.0, 305.0 ]
+					"presentation_rect" : [ 423.0, 19.0, 200.0, 300.0 ]
 				}
 
 			}
@@ -2702,7 +2687,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 605.471496999999999, 492.0, 89.0 ],
+					"patching_rect" : [ 15.0, 605.471496999999999, 492.0, 91.0 ],
 					"text" : "mc.dac~ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 129 130 131 132 133 134 135 136 137 138"
 				}
 
@@ -3855,33 +3840,33 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "aedpanner.maxpat",
-				"bootpath" : "~/Sourceforge/ICAT-Documentation/max-patches",
+				"bootpath" : "Z:/To Windows/ICAT-Documentation/max-patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
+				"name" : "ambimonitor.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "ambipanner.maxpat",
-				"bootpath" : "~/Sourceforge/ICAT-Documentation/max-patches",
+				"bootpath" : "Z:/To Windows/ICAT-Documentation/max-patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mc.ambidecode~.mxo",
-				"type" : "iLaX"
+				"name" : "mc.ambidecode~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mc.ambiencode~.mxo",
-				"type" : "iLaX"
+				"name" : "mc.ambiencode~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "multiconvolve~.mxo",
-				"type" : "iLaX"
+				"name" : "multiconvolve~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
