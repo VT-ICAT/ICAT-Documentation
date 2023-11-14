@@ -1,5 +1,7 @@
 * Max Patches
 
+To use any of the ambisonic patches in this folder, *make sure to install the ICST and HISS externals* from the Max package manager.
+
 | Patch                                                         | What the patch does                                                                                                                                                                                                 |
 |---------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[./aedpanner.maxpat][aedpanner]]                             | Patcher that helps with doing aed panning with ICST's ambisonic encoders/decoders. Includes safeguards.                                                                                                             |
