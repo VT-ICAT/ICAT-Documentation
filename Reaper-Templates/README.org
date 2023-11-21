@@ -11,7 +11,7 @@ For a video guide, [[https://youtu.be/gHyjOB6yF1o][watch this short video]] show
 | [[https://github.com/brandflake11/ICAT-Documentation/blob/main/Reaper-Templates/Max.ReaperOSC][Max.ReaperOSC]] | OSC settings for reaper for sending ambisonic coordinates to Max msp. To install, in Reaper, go to _Options>Show REAPER resource path in explorer/finder_ and copy to the OSC folder.                                                       |
 |                                                                                                              |                                                                                                                                                                                                                                           |
 
-After installing/copying the two files, make sure to enable the OSC pattern config called Max in Reaper. In Reaper, go to _Options>Preferences>Control/OSC/Web_ and add an OSC control surface mode. Follow [[../.imagegit/reaper-install-osc-1.png]] and [[../.imagegit/reaper-install-osc-2.png]] and match your settings.
+After installing/copying the two files, make sure to enable the OSC pattern config called Max in Reaper. In Reaper, go to _Options>Preferences>Control/OSC/Web_ and add an OSC control surface mode. Follow [[../.imagegit/reaper-install-osc-1.png]] and [[../.imagegit/reaper-install-osc-2.png]] and match your settings:
 
 | OSC Setting Name                                      | Value                      |
 |-------------------------------------------------------+----------------------------|
