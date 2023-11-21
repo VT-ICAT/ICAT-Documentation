@@ -1,6 +1,6 @@
 * Max Patches
 
-To use any of the ambisonic patches in this folder, *make sure to install the ICST and HISS externals* from the Max package manager.
+To use any of the ambisonic patches in this folder, *make sure to install the ICST and HISS externals* from the Max package manager. Additionally, installing [[https://forum.ircam.fr/projects/detail/spat/][SPAT for Max]] is required if you would like to use VBAP with [[./ambisonic-output.maxpat][ambisonic-output]] or [[./ambisonic-output-max7.maxpat][ambisonic-output-max7]]. Unfortunately, SPAT must be installed manually, as it does not exist in the Max package manager.
 
 | Patch                                                         | What the patch does                                                                                                                                                                                                 |
 |---------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
