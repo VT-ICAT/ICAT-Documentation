@@ -14,7 +14,7 @@ For a video guide, [[https://youtu.be/gHyjOB6yF1o][watch this short video]] show
 After installing/copying the two files, make sure to enable the OSC pattern config called Max in Reaper. In Reaper, go to _Options>Preferences>Control/OSC/Web_ and add an OSC control surface mode. Follow [[../.imagegit/reaper-install-osc-1.png][reaper-install-osc-1]] and [[../.imagegit/reaper-install-osc-2.png][reaper-install-osc-2]] and match your settings.
 
 | OSC Setting Name                                      | Value                      |
-| ---------------- + -----                              |                            |
+|-------------------------------------------------------+----------------------------|
 | Control surface mode                                  | OSC (Open Sound Control)   |
 | Device Name                                           | Max                        |
 | Pattern Config                                        | Max                        |
@@ -25,7 +25,7 @@ After installing/copying the two files, make sure to enable the OSC pattern conf
 | Outgoing max packet size                              | 1024                       |
 | Wait between packets                                  | 5 ms                       |
 
-Below are the Reaper templates. Make sure to install the prerequisites from above and to keep in mind some of the templates require [[Max patches][../max-patches]].
+Below are the Reaper templates. Make sure to install the prerequisites from above and to keep in mind some of the templates require [[../max-patches][Max patches]].
 
 | Template                                                                                                                                                                         | What it does                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
