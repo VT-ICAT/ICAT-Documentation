@@ -4,4 +4,4 @@ At ICAT, Perform Studio and the Cube have motion tracking with Qualisys. Using i
 
 For help with Qualisys, or its software Qualisys Track Manager, look at the official Qualisys manual:
 - [[https://cdn-content.qualisys.com/2022/07/QTM-user-manual.pdf][Official Manual]]
-- [[https://cdn-content.qualisys.com/2022/07/QTM-user-manual.pdf][How to create and define a rigid body (page 361-363 of the official manual under Creating 6DOF bodies)]]
+- [[https://cdn-content.qualisys.com/2022/07/QTM-user-manual.pdf#page=389][How to create and define a rigid body (page 361-363 of the official manual under Creating 6DOF bodies)]]
