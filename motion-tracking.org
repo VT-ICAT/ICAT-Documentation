@@ -1,6 +1,6 @@
 * Overview
 
-At ICAT, Perform Studio and the Cube have motion tracking with Qualisys. Using it, you can define and track rigid bodies that are created with infrared-reflective markers and stream this data in real-time with other computers for art and research.
+At ICAT, Perform Studio and the Cube have motion tracking with Qualisys. Using it, you can define and track rigid bodies that are created with infrared-reflective markers and stream this data in real-time with other computers for art and research with very little latency.
 
 For help with Qualisys, or its software Qualisys Track Manager, look at the official Qualisys manual:
 - [[https://cdn-content.qualisys.com/2022/07/QTM-user-manual.pdf][Official Manual]]
