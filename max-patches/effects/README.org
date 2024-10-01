@@ -1,0 +1,20 @@
+* Effects
+
+These patches were designed to allow for quick effects that can be put on signals in time of need. Each patcher has arguments, which can also be changed with their respective inlets, to allow for applying the effect as quickly as possible. The inputs have also been simplified to take the same values when possible and include safety features so you cannot accidentally have the effect send 0dbfs signal to your speakers. Each effect starts with the letter e and the name of what they are. For example, if you need a lowpass filter, you use elowpass. Additionally, within each patcher, you will find a comment describing how to input appropriate values and what the patcher's arguments are. Lastly, there is a [[./legacy][legacy folder]] within this directory. This folder has an older version of the edelay that was implemented with ~delay~~ before ~tapin~~ and ~tapout~~ were decided to be better for the feedback delay.
+
+Note: The #numbers refer to the argument number of the patcher. For instance, #3 refers to the third argument of the patcher.
+
+| Patch                                 | What the patch does                                                                                                    |
+|---------------------------------------+------------------------------------------------------------------------------------------------------------------------|
+| [[./ebandpass.maxpat][ebandpass]]     | Applies a resonant bandpass filter. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                       |
+| [[./echorus.maxpat][echorus]]         | Adds a chorus effect to the signal. If values given are large, it can create some wacky sounds.                        |
+| [[./ecompressor.maxpat][ecompressor]] | Not complete yet, do not use.                                                                                          |
+| [[./edelay.maxpat][edelay]]           | Applies a feedback delay to the signal. #1 - Delay in milliseconds, #2 - Feedback from 0.-.999                         |
+| [[./edistort.maxpat][edistort]]       | Technically adds an overdrive effect. Good for quick dirtying of signal. #1 - 0.-1. for intensity.                     |
+| [[./ehighpass.maxpat][ehighpass]]     | Applies a resonant highpass filter. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                       |
+| [[./elowpass.maxpat][elowpass]]       | Applies a resonant lowpass value. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                         |
+| [[./enotch.maxpat][enotch]]           | Applies a resonant notch filter (takes away a collection of frequencies). #1 - Cutoff in hz, #2 - Resonance from 0.-1. |
+| [[./ereverb.maxpat][ereverb]]         | Adds a quick reverb effect (much like from older game consoles.) #1 - Reverberation time in milliseconds.              |
+
+
+
