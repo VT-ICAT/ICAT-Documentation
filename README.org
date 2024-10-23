@@ -8,7 +8,7 @@
 
 - [[./Reaper-Templates][Reaper Project File Templates]]
 
-- [[./pd-l2ork-patches][Pd-l2ork Helper Patches]]
+- [[./puredata-patches][Pure data Helper Patches]]
 
 - [[./max-patches][Max Helper Patches]]
 
@@ -18,7 +18,7 @@
 
 This repository is for anyone coming to the ICAT spaces. It hosts a wide variety of documentation, patches, and programs for use at ICAT to make your life easier. It can be cloned to your local computer for later use.
 
-It also includes some useful programs and patches for use in the ICAT facilities. Some of this includes Reaper Template files, Max msp patches, and pd-l2ork patches that ICAT has developed in house for use in its facilities. 
+It also includes some useful programs and patches for use in the ICAT facilities. Some of this includes Reaper Template files, Max msp patches, and pure data (pd) patches that ICAT has developed in house for use in its facilities. 
 
 If there are changes that need to be made, feel free to make a pull request and we can make the appropriate changes.
 
