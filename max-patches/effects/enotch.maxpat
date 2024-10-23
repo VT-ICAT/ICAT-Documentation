@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -92,8 +92,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 683.0, 341.0, 85.0, 22.0 ],
-					"text" : "print elowpass"
+					"patching_rect" : [ 683.0, 341.0, 71.0, 22.0 ],
+					"text" : "print enotch"
 				}
 
 			}
@@ -235,8 +235,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 341.0, 85.0, 22.0 ],
-					"text" : "print elowpass"
+					"patching_rect" : [ 436.0, 341.0, 71.0, 22.0 ],
+					"text" : "print enotch"
 				}
 
 			}
@@ -292,7 +292,7 @@
 				"box" : 				{
 					"comment" : "Resonance 0.-1.",
 					"id" : "obj-5",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -305,7 +305,7 @@
 				"box" : 				{
 					"comment" : "Cutoff Frequency",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -318,7 +318,7 @@
 				"box" : 				{
 					"comment" : "Output signal",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -330,11 +330,11 @@
 				"box" : 				{
 					"comment" : "Input Signal",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 52.0, 64.0, 30.0, 30.0 ]
 				}
 
@@ -531,7 +531,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
