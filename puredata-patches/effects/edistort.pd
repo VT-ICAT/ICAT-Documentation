@@ -1,0 +1,17 @@
+#N canvas 804 598 521 179 12;
+#X obj 63 33 inlet~;
+#X obj 63 58 cyclone/overdrive~;
+#X obj 63 83 outlet~;
+#X obj 261 42 inlet;
+#X obj 261 67 cyclone/scale 0 1 1 10;
+#X obj 261 92 clip 1 10;
+#X obj 363 11 loadbang;
+#X obj 363 36 \$1;
+#X text 60 141 \$1 - Give a val 0 to 1 to set amount of overdrive you want;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 1;
+#X connect 6 0 7 0;
+#X connect 7 0 4 0;

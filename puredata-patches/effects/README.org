@@ -1,0 +1,20 @@
+* Effects
+
+These patches were designed to allow for quick effects that can be put on signals in time of need. Each patch has arguments, which can also be changed with their respective inlets, to allow for applying the effect as quickly as possible. The inputs have also been simplified to take the same values when possible and include safety features so you cannot accidentally have the effect send 0dbfs signal to your speakers. Each effect starts with the letter e and the name of what they are. For example, if you need a lowpass filter, you use elowpass. Additionally, within each patch, you will find a comment describing how to input appropriate values and what the patcher's arguments are.
+
+These patches were made to match the [[../../max-patches/effects][Max msp effects patches]] to have feature parity between Max msp and pure data. In order to achieve 
+this, some externals were used, namely the cyclone and else libraries. Installing both of these with deken (pure data's built-in package manager) will be needed to use all of these patches, although vanilla objects were used as much as possible.
+
+Note: The $numbers refer to the argument number of the patcher. For instance, $3 refers to the third argument of the patcher.
+
+| Patch                             | What the patch does                                                                                                    |
+|-----------------------------------+------------------------------------------------------------------------------------------------------------------------|
+| [[./ebandpass.pd][ebandpass]]     | Applies a resonant bandpass filter. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                       |
+| [[./echorus.pd][echorus]]         | Adds a chorus effect to the signal. If values given are large, it can create some wacky sounds.                        |
+| [[./ecompressor.pd][ecompressor]] | Not complete yet, do not use.                                                                                          |
+| [[./edelay.pd][edelay]]           | Applies a feedback delay to the signal. #1 - Delay in milliseconds, #2 - Feedback from 0.-.999                         |
+| [[./edistort.pd][edistort]]       | Technically adds an overdrive effect. Good for quick dirtying of signal. #1 - 0.-1. for intensity.                     |
+| [[./ehighpass.pd][ehighpass]]     | Applies a resonant highpass filter. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                       |
+| [[./elowpass.pd][elowpass]]       | Applies a resonant lowpass value. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                         |
+| [[./enotch.pd][enotch]]           | Applies a resonant notch filter (takes away a collection of frequencies). #1 - Cutoff in hz, #2 - Resonance from 0.-1. |
+| [[./ereverb.pd][ereverb]]         | Adds a quick reverb effect (much like from older game consoles.) #1 - Reverberation time in milliseconds.              |
