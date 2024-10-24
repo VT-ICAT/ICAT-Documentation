@@ -17,4 +17,4 @@ Note: The $numbers refer to the argument number of the patcher. For instance, $3
 | [[./ehighpass.pd][ehighpass]]     | Applies a resonant highpass filter. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                       |
 | [[./elowpass.pd][elowpass]]       | Applies a resonant lowpass value. #1 - Cutoff in hz, #2 - Resonance from 0.-1.                                         |
 | [[./enotch.pd][enotch]]           | Applies a resonant notch filter (takes away a collection of frequencies). #1 - Cutoff in hz, #2 - Resonance from 0.-1. |
-| [[./ereverb.pd][ereverb]]         | Adds a quick reverb effect (much like from older game consoles.) #1 - Reverberation time in milliseconds.              |
+| [[./ereverb.pd][ereverb]]         | Adds a quick reverb effect (much like from older game consoles.) #1 - Reverberation liveness from 0-1.   |
