@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 102.0, 1596.0, 871.0 ],
+		"rect" : [ 50.0, 102.0, 1162.0, 871.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,15 +81,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.5, 81.0, 150.0, 20.0 ],
-					"text" : "Rotation on Z axis"
+					"text" : "Rotation on Y axis"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Spread (0.-1.)  (Can be higher than 1., but will go off ambimonitor)",
+					"comment" : "Rotation on Y axis (in degrees) (careful, flips controls too)",
 					"id" : "obj-42",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -133,7 +133,6 @@
 					"saved_object_attributes" : 					{
 						"mode" : "rotate",
 						"rotate_order" : 5,
-						"rotation" : [ 0.0, 90.0, 0.0 ],
 						"scaling" : [ 0.0, 0.0, 0.0 ]
 					}
 ,
@@ -212,7 +211,6 @@
 					"saved_object_attributes" : 					{
 						"mode" : "rotate",
 						"rotate_order" : 5,
-						"rotation" : [ 0.0, 90.0, 0.0 ],
 						"scaling" : [ 0.0, 0.0, 0.0 ]
 					}
 ,
@@ -296,7 +294,7 @@
 				"box" : 				{
 					"comment" : "Outputs just the left coordinate",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -308,7 +306,7 @@
 				"box" : 				{
 					"comment" : "Outputs just the right coordinate",
 					"id" : "obj-25",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -535,7 +533,7 @@
 				"box" : 				{
 					"comment" : "Spread (0.-1.)  (Can be higher than 1., but will go off ambimonitor)",
 					"id" : "obj-4",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -548,7 +546,7 @@
 				"box" : 				{
 					"comment" : "Rotation in degrees of two points",
 					"id" : "obj-3",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -561,7 +559,7 @@
 				"box" : 				{
 					"comment" : "Outputs both stereo coordinates together",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -890,7 +888,7 @@
 				"box" : 				{
 					"comment" : "Z (0.-1.)",
 					"id" : "obj-26",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -903,7 +901,7 @@
 				"box" : 				{
 					"comment" : "Y (-1.-1.)",
 					"id" : "obj-27",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -916,11 +914,11 @@
 				"box" : 				{
 					"comment" : "X (-1.-1.) (set and number can be sent in list to reassign the coordinates) (color and number list can be sent to first inlet to change color)",
 					"id" : "obj-28",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 428.0, 34.0, 30.0, 30.0 ]
 				}
 
@@ -1002,7 +1000,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 906.0, 475.0, 267.0, 127.0 ],
-					"text" : "#1 - Starting Coordinate Number (will create a second after this one)\n#2 - x\n#3 - y\n#4 - z\n#5 - rotation in degrees\n#6 - spread from 0.-1.\n#7 - rotation on z axis (careful, flips controls too)\n#8 - color"
+					"text" : "#1 - Starting Coordinate Number (will create a second after this one)\n#2 - x\n#3 - y\n#4 - z\n#5 - rotation in degrees\n#6 - spread from 0.-1.\n#7 - rotation on y axis (careful, flips controls too)\n#8 - color"
 				}
 
 			}
@@ -1668,7 +1666,20 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "aedpanner.maxpat",
+				"bootpath" : "~/Sourceforge/ICAT-Documentation/max-patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ambipoint.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
