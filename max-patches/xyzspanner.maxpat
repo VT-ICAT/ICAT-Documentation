@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -44.0, 115.0, 1193.0, 772.0 ],
+		"rect" : [ 34.0, 115.0, 1193.0, 772.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -201,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.0, 42.0, 80.0, 22.0 ],
+					"patching_rect" : [ 159.0, 38.0, 80.0, 22.0 ],
 					"text" : "loadmess #2"
 				}
 
@@ -1231,15 +1231,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-34", 0 ]
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-34", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-34", 1 ]
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
