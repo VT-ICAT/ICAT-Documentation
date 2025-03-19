@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.34/linux-x86_64" 1741635757
+<REAPER_PROJECT 0.1 "7.34/linux-x86_64" 1742412407
   <NOTES 0 2
   >
   RIPPLE 0
@@ -19,7 +19,7 @@
   PANMODE 3
   PANLAWFLAGS 3
   CURSOR 0
-  ZOOM 25.47655226259521 5984 0
+  ZOOM 18.09988511555567 0 0
   VZOOMEX 0 0
   USE_REC_CFG 0
   RECMODE 1
@@ -264,28 +264,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {E2CBD8E6-3702-CD7C-A85F-F0AD74A57B48}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {15A6896E-E40C-E7C0-34E0-5F48286C0DBA}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {76D5D1CC-615B-910B-46D6-E5B15AB0B86F}
     NAME ""
@@ -367,28 +345,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {2D8BF78D-056D-822B-5B77-BB92DA8BC5D2}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {950DC1AE-E51F-1282-9DD8-0AE433FB30B7}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {F2853EEB-63B4-AD44-564B-3446E043500B}
@@ -472,28 +428,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {E73BAACA-A582-3AE0-E32E-115277F93870}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9576E712-8096-A194-4FA3-7CB05D78D758}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {5CEC11D4-7E6E-F8DA-0C86-51584E226CA5}
     NAME ""
@@ -575,28 +509,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {06A02576-44D1-1035-6ADC-FB923150ECAE}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {5395C264-58DA-4C7A-313E-87FB8DAC55D2}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {F5FE397C-CF70-E804-26F7-EBE430D796B2}
@@ -680,28 +592,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {5EA71388-F636-3AC0-E0C5-397B36CF2DD9}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {0135FF5A-CFFE-EFEE-1C71-23AD7D73B3B7}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {E2C4B72C-C81B-7DE2-B6F7-492AD4447E4C}
     NAME ""
@@ -783,28 +673,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {C823D1E6-7F16-CDB1-D535-EC2249B5A262}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4655A5CB-5CA3-3A48-5176-27FC47700644}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {71C34CAB-22DB-E22C-EA7C-D343D7DBAF2C}
@@ -888,28 +756,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {B732C0EF-8649-27EA-A28F-EC9D1518FB89}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {87BA0A34-B926-6180-0A08-307E5F281C83}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {44CE516A-2346-21A1-F898-BDD7EBA79608}
     NAME ""
@@ -991,28 +837,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {69E375E2-535B-B976-5FCC-F3298CB3285F}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4843A587-E04A-9A5D-3D69-8248CC4B5797}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {EA6BAD6A-23CE-9398-CC06-32047F20A58E}
@@ -1096,28 +920,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {08C7949F-7B31-E525-6FD2-780E09B72BB1}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {69FEB7E9-5F46-E34B-A295-376E31F97602}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {0638DF70-F56F-88CB-5D12-6DC740417B7D}
     NAME ""
@@ -1199,28 +1001,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {9BD87313-2BD4-6CF8-F322-2F268FE7CAA4}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {15DACA01-BC86-D434-2BE4-8E73C7DA0AB7}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {E9845B13-3DB1-7648-871D-5FC6B5B2CDE9}
@@ -1304,28 +1084,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {C3593843-6BE6-1C9C-A9ED-F1527FAC176F}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {5B92E42C-D156-33A1-1ACC-0E5212571149}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {E758B801-F774-66BC-ADAD-A5EAF7E230DD}
     NAME ""
@@ -1407,28 +1165,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {535C0814-26CC-18A1-2287-DE096B910769}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {F261AC81-8C4A-06C7-C63C-A2161BACF50F}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {F5867497-45AE-82B1-11FB-D1959500FE8B}
@@ -1512,28 +1248,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {2C758214-B051-CE34-1823-AC053CC13BE6}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {A4BF48BD-C38E-8426-EBED-A39B6F4F4547}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {8D249BC9-07D1-3AC3-0939-26706556377D}
     NAME ""
@@ -1615,28 +1329,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {4F547BD1-F360-8768-5862-457CA3EA2BBF}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {791CEABC-862C-989A-19FC-A465B6DE451A}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {FD539AF7-5F6C-298F-431A-46300EAA599E}
@@ -1720,28 +1412,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {BAC2F76E-8EB6-90CE-DBB5-01CC22C33125}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {55DEA99F-844F-A748-EADD-D9EFFC24A3C2}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {818B343B-EFA5-DCD8-D0CE-4DE2AAE06413}
     NAME ""
@@ -1823,28 +1493,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {D06B6B60-E888-6CF6-6B75-0BB0101968AA}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {A3161842-00F3-6D1C-D288-89169DB51A75}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {B98E8B8C-AEF6-B0A8-5BB1-C0E147FD8D19}
@@ -1928,28 +1576,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {8877CE52-E0DB-994B-2782-D1BC09662A58}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {C4240590-22A1-4DA4-8796-73D9042C796E}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {5A9D11E9-5AEA-06B2-35E0-3BD2EEA9973F}
     NAME ""
@@ -2031,28 +1657,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {09BC139D-E8AC-CB47-BDAC-BC1DA3DA26AA}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {BE15F943-8193-D1C7-BBA4-B4E5937E92B8}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {1BEE5A0E-03ED-084D-5F08-8838D677BF27}
@@ -2136,28 +1740,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {064694BE-7FAA-E952-160A-15C25FF3A07D}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {BBA87931-50E8-9EE9-82BD-F4E175B7714B}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {5AEB7FF6-992E-104E-E6EA-D9F706F4C1B5}
     NAME ""
@@ -2239,28 +1821,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {B37611A5-9DFB-A5FE-0511-9C55FC574720}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {5248792D-9ABD-AF0E-2377-75909B2DBAE6}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {8B120FB1-B78B-3F93-F695-C45B462CB342}
@@ -2344,28 +1904,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {A12D0BE3-1443-1BA3-A963-E2B424E07D76}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9411AB9A-6E23-22E4-A517-D6CFFA56A499}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {7D3A8947-F5CA-4D45-F581-CB502E4B20C7}
     NAME ""
@@ -2447,28 +1985,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {29CBE4D3-1F0A-3314-85C6-A85364A74836}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3A27C2A4-94EB-890C-4423-80C041ABEE82}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
   <TRACK {C357E8F2-F0B8-B608-D51D-48D12E803D8B}
@@ -2552,28 +2068,6 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {25E95964-A51D-70E5-AE18-4D235814F18B}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6C0C44D8-AB94-8ECB-4B66-C07A013D498C}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
-    >
   >
   <TRACK {D7161FDF-8948-D653-A465-BB787BEF61E6}
     NAME ""
@@ -2655,28 +2149,6 @@
         PT 0 0.5 0
       >
       WAK 0 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 6.8721768707483
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 1
-      IGUID {8C02A889-3339-BE53-D43B-E1A042A9E115}
-      IID 1
-      NAME break.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {46D0AD60-57DE-4B98-9748-C4417C3AFB99}
-      <SOURCE WAVE
-        FILE "Media/break.wav"
-      >
     >
   >
 >
