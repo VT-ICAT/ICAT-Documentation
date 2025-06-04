@@ -2,10 +2,11 @@
 
 This folder contains speaker coordinates for use with Ambisonics decoders. Currently, the file structure is:
 
-| Folder   | Description                                                                 |
-|----------+-----------------------------------------------------------------------------|
-| [[./icst-vst][ICST VST]] | Contains preset files the ICST vst decoder plugins can load                 |
-| [[./raw][Raw]]      | Has raw files. This is good for csv/excel/txt files that are more universal |
+| Folder                   | Description                                                                                 |
+|--------------------------+---------------------------------------------------------------------------------------------|
+| [[./icst-max][ICST Max]] | Contains coordinates that can be loaded into ICST Max msp's ~ambimonitor~ and ~ambidecode~~ |
+| [[./icst-vst][ICST VST]] | Contains preset files the ICST vst decoder plugins can load                                 |
+| [[./raw][Raw]]           | Has raw files. This is good for csv/excel/txt files that are more universal                 |
 
 
 
