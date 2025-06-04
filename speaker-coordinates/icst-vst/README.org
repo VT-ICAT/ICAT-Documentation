@@ -1,0 +1,11 @@
+* ICST VST Coordinates
+
+| File                                                                       | Description                                                                                                                                       |
+|----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------|
+| [[./DISIS 26 Channel.xml][DISIS 26 Channel]]                               | For DISIS with speakers on ceiling configuration. This is now the current setup.                                                                  |
+| [[./Perform Studio Cube-like Facing.xml][Perform Studio Cube-like Facing]] | Perform Studio with front being north. Can be used if a project has been using the Cube's decoder setup and need to transition to Perform Studio. |
+| [[./Perform Studio Front Facing.xml][Perform Studio Front Facing]]         | Perform Studio but with west wall being front. Good to use when making a project only for Perform Studio. Front is where speaker 1 starts.        |
+| [[./Sandbox 9 Channel Impromptu.xml][Sandbox 9 Channel Impromptu]]         | Sandbox 9 channel two-level surround setup. Created for Spatial Audio Tidepool 2025.                                                              |
+
+
+
