@@ -1,6 +1,8 @@
 * ICST Max Coordinates
 
-Preset files for the ICST max ~ambidecode~~ external. Use for quick setup of Ambisonics projects in ICAT spaces.
+Preset files for the ICST Max ~ambidecode~~ external. Use for quick setup of Ambisonics projects in ICAT spaces. To use, copy the contents of the file to a message and feed it to ~ambimonitor~ or ~ambidecode~~.
+
+(Note: to use the ~ambidecode~~ or ~ambimonitor~ externals/objects you will need to install the ICST library in Max. You can install ICST with the ~Package Manager~)
 
 | File                                                                       | Description                                                                                                                                       |
 |----------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------|
