@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 105.0, 87.0, 1285.0, 890.0 ],
+		"rect" : [ 105.0, 87.0, 1285.0, 887.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"patching_rect" : [ 607.0, 463.0, 468.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 431.0, 3.0, 468.0, 51.0 ],
-					"text" : "The Distributer",
+					"text" : "The Distributor",
 					"textjustification" : 1
 				}
 
@@ -95,15 +95,14 @@
 					"gradient" : 1,
 					"id" : "obj-1",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1125.0, 600.638184000000138, 82.0, 58.0 ],
+					"patching_rect" : [ 1125.0, 600.638184000000138, 82.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 937.0, 536.0, 164.0, 33.0 ],
-					"text" : "Perform"
+					"text" : "Cube"
 				}
 
 			}
@@ -781,7 +780,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1200,7 +1199,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1452,7 +1451,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1532,7 +1531,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -1599,7 +1598,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1679,7 +1678,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -1746,7 +1745,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1826,7 +1825,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -1893,7 +1892,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1973,7 +1972,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -2040,7 +2039,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2120,7 +2119,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -2187,7 +2186,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2267,7 +2266,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -2334,7 +2333,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2414,7 +2413,7 @@
 													"outlettype" : [ "multichannelsignal" ],
 													"patching_rect" : [ 24.0, 121.0, 110.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"active" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+														"active" : [ 1 ],
 														"center_att_db" : 6.0,
 														"center_curve" : 0.2,
 														"center_size" : 1.0,
@@ -2756,7 +2755,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2852,7 +2851,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3484,7 +3483,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3530,7 +3529,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4164,7 +4163,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5437,7 +5436,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5891,7 +5890,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6026,7 +6025,6 @@
 									}
 ,
 									"patching_rect" : [ 421.5, 270.0, 74.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6049,7 +6047,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6184,7 +6182,6 @@
 									}
 ,
 									"patching_rect" : [ 359.0, 270.0, 57.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6207,7 +6204,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6364,7 +6361,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6499,7 +6496,6 @@
 									}
 ,
 									"patching_rect" : [ 231.0, 270.0, 63.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6522,7 +6518,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6657,7 +6653,6 @@
 									}
 ,
 									"patching_rect" : [ 159.0, 270.0, 55.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6680,7 +6675,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6815,7 +6810,6 @@
 									}
 ,
 									"patching_rect" : [ 81.0, 270.0, 71.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6838,7 +6832,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7693,7 +7687,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8159,7 +8153,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8295,7 +8289,6 @@
 									}
 ,
 									"patching_rect" : [ 408.0, 364.0, 67.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8318,7 +8311,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8454,7 +8447,6 @@
 									}
 ,
 									"patching_rect" : [ 349.0, 364.0, 50.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8477,7 +8469,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8635,7 +8627,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8771,7 +8763,6 @@
 									}
 ,
 									"patching_rect" : [ 218.0, 364.0, 56.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8794,7 +8785,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8930,7 +8921,6 @@
 									}
 ,
 									"patching_rect" : [ 146.0, 364.0, 49.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8953,7 +8943,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9089,7 +9079,6 @@
 									}
 ,
 									"patching_rect" : [ 72.0, 364.0, 64.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -9112,7 +9101,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10068,7 +10057,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10192,7 +10181,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10261,7 +10250,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10855,7 +10844,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11640,7 +11629,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-39",
-					"items" : [ "1OA_falkland_tennis_court_b_format.wav", ",", "1OA_Hamilton Mausoleum.wav", ",", "1OA_Maes-Howe.wav", ",", "1OA_St Andrews Church.wav", ",", "1OA_York Minster.wav", ",", "alcuin_s1r1_bformat.wav", ",", "alcuin_s1r1front_bformat.wav", ",", "alcuin_s1r2_bformat.wav", ",", "impulseresponseheslingtonchurch-001.wav", ",", "impulseresponseheslingtonchurch-002.wav", ",", "impulseresponseheslingtonchurch-003.wav", ",", "impulseresponseheslingtonchurch-006.wav", ",", "impulseresponseheslingtonchurch-007.wav", ",", "s1r1_spist_bform.wav", ",", "source1domefareceiver2domelabformat.wav", ",", "terrys_typing_b_format.wav" ],
+					"items" : [ "1OA_falkland_tennis_court_b_format.wav", ",", "1OA_Hamilton Mausoleum.wav", ",", "1OA_Maes-Howe.wav", ",", "1OA_St Andrews Church.wav", ",", "1OA_York Minster.wav", ",", "alcuin_s1r1_bformat.wav", ",", "alcuin_s1r1front_bformat.wav", ",", "alcuin_s1r2_bformat.wav", ",", "hamilton-mausoleum-shorter-2.wav", ",", "impulseresponseheslingtonchurch-001.wav", ",", "impulseresponseheslingtonchurch-002.wav", ",", "impulseresponseheslingtonchurch-003.wav", ",", "impulseresponseheslingtonchurch-006.wav", ",", "impulseresponseheslingtonchurch-007.wav", ",", "s1r1_spist_bform.wav", ",", "source1domefareceiver2domelabformat.wav", ",", "terrys_typing_b_format.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12807,6 +12796,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "ambimonitor.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "disguise-preset.coll",
+				"bootpath" : "C74:/help/max",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.ambidecode~.mxo",
