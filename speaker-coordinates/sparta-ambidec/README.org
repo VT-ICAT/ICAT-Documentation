@@ -1,0 +1,7 @@
+* SPARTA Speaker Coordinates
+
+Within this folder contains coordinates that can be loaded into the SPARTA Ambisonics suite. It has been tested with the SPARTA ambidec decoder. 
+
+In the plugin, select import, and select the .json file that corresponds to the studio you are in.
+
+For the Cube coordinates, refer to the [[./sparta-cube-channel-configuration.org][speaker mapping file]] (showing which virtual speaker coordinates go to hardware outputs), as each plugin can only do 64 channels, meaning you will have to use multiple ambidec decoders. Alternatively, consider using the [[../../Reaper-Templates/cube-ambidec-template.RPP][Cube Ambidec Template]] for Reaper, which has this already mapped out correctly.
