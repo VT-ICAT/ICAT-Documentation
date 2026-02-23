@@ -4,7 +4,7 @@ These text documents are made for the ICST vst decoder plugin (current version 3
 
 To use, route the b-format/ambisonics signal to each of these busses to get full coverage of the Cube. You will also need to route the speakers to the correct hardware out. Hopefully this readme will help you with that.
 
-You can use the provided cube-decoder-example.RPP in this directory, however, with the varying operating systems and versions of this plugin not necessarily being backwards compatible, you may have to import the coordinates in this directory to setup the decoder in Reaper (or your DAW of choice). 
+You can use the provided [[./cube-decoder-example.RPP][cube-decoder-example.RPP]] in this directory, however, with the varying operating systems and versions of this plugin not necessarily being backwards compatible, you may have to import the coordinates in this directory to setup the decoder in Reaper (or your DAW of choice). 
 
 Below is a setup of three busses for the decoder. Note, you will probably want the max channels allowed for each bus, as the decoder requires the input to allow for the order of Ambisonics you would like to use:
 
