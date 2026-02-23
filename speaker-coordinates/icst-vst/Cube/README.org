@@ -1,0 +1,19 @@
+* What is this for?
+
+These text documents are made for the ICST vst decoder plugin (current version 3.2.0 as of writing this). Depending on which version of the plugin you are using (lv2, vst, vs3) there is usually a 64 channel limit. These files are for decoding to the Cube (140 speakers) using 3 instances of the decoder plugin.
+
+To use, route the b-format/ambisonics signal to each of these busses to get full coverage of the Cube. You will also need to route the speakers to the correct hardware out. Hopefully this readme will help you with that.
+
+You can use the provided cube-decoder-example.RPP in this directory, however, with the varying operating systems and versions of this plugin not necessarily being backwards compatible, you may have to import the coordinates in this directory to setup the decoder in Reaper (or your DAW of choice). 
+
+Below is a setup of three busses for the decoder. Note, you will probably want the max channels allowed for each bus, as the decoder requires the input to allow for the order of Ambisonics you would like to use:
+
+| Bus:                       | 1-64                                    | 65-124                                    | 129-138                                    |
+| Routing Instructions:      | Route bus outputs 1-64 to hardware 1-64 | Route bus outputs 1-60 to hardware 65-124 | Route bus outputs 1-10 to hardware 128-138 |
+| File to load for ICST vst: | icstvst-csv-1.csv                       | icstvst-csv-2.csv                         | icstvst-csv-3.csv                          |
+
+For loading the csv files in the vst, open the ~gear~ in the top left of the vst gui, go to ~speaker~ ~Import/Export>CSV>Import~ and find the correct file for the appropriate bus.
+
+** But, if we load separate decoders for the same speaker system, won't this affect the accuracy of the decoding?
+
+The coordinates all are decoded separately. Meaning, you can load two decoders (or more), have the same coordinate (or multiple same coordinates) for both, and change the rest of the coordinates and the same coordinate will null. Basically, the coordinates don't have a relationship to the rest of the others in this setup, meaning as long as your DAW as latency compensation, using three decoders together should not affect the accuracy of your decoded signal. In testing, the null only was un-nulled when the distance went beyond the value 1, but this was most likely only a gain/distance compensation. Interestingly, the max versions of the decoder did not do this gain compensation automatically going beyond a distance of 1 and continued to null. Of course, feel free to try this null test and report back. Improving this setup would be awesome, but so far, this should be more than adequate if you are interested in making Ambisonics works in the Cube.
