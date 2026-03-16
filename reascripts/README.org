@@ -1,0 +1,9 @@
+* Reascripts
+
+Reaper has a scripting api that uses lua (and also python) to create its own actions, what Reaper calls how to do something.
+
+This folder includes scripts that can be added as actions to enhance your workflow with Reaper, adding features that are not present in the program, but should be.
+
+** Fennel
+
+Fennel is a lisp language that compiles to lua. Some of the lua scripts in this directory may be created with Fennel instead of lua directly. If you are submitting changes to a lua script, please do so with the Fennel source instead, as the Fennel source will overwrite the lua script when compiling. There are ways of working back and forth between lua and Fennel, but working with the author on this would be best to integrate the lua changes into the Fennel source code, if it is written originally in Fennel.
