@@ -8,10 +8,11 @@ You can use the provided [[./cube-decoder-example.RPP][cube-decoder-example.RPP]
 
 Below is a setup of three busses for the decoder. Note, you will probably want the max channels allowed for each bus, as the decoder requires the input to allow for the order of Ambisonics you would like to use:
 
-| *Bus*:                       | *1-64*                                     | *65-124*                                   | *129-138*                                  |
-| *Routing Instructions*:      | Route bus outputs 1-64 to hardware 1-64    | Route bus outputs 1-60 to hardware 65-124  | Route bus outputs 1-10 to hardware 128-138 |
-| *File to load for ICST vst*: | [[./icstvst-csv-1.csv][icstvst-csv-1.csv]] | [[./icstvst-csv-2.csv][icstvst-csv-2.csv]] | [[./icstvst-csv-3.csv][icstvst-csv-3.csv]] |
+For the last grouping of speakers, you have 4 options. Select the option that corresponds to the inner truss (floating above floor) height. The heights are determined from bottom of inner truss to catwalk floor. Inner truss flown means it is flown up as far as it can go near the grid. The reaper template has all 4 that can easily be muted or unmuted.
 
+| *Bus*:                       | *1-64*                                     | *65-124*                                   | *129-138 and 141-148*                                                                                                                                                                                                                                                                                                            |
+| *Routing Instructions*:      | Route bus outputs 1-64 to hardware 1-64    | Route bus outputs 1-60 to hardware 65-124  | Route bus outputs 1-10 to hardware 128-138 and bus outputs 11-18 to hardware 141-148                                                                                                                                                                                                                                             |
+| *File to load for ICST vst*: | [[./icstvst-csv-1.csv][icstvst-csv-1.csv]] | [[./icstvst-csv-2.csv][icstvst-csv-2.csv]] | [[./icstvst-csv-3-truss-1st-catwalk.csv][./icstvst-csv-3-truss-1st-catwalk.csv]] or [[./icstvst-csv-3-truss-2nd-catwalk.csv][./icstvst-csv-3-truss-2nd-catwalk.csv]] or [[./icstvst-csv-3-truss-3rd-catwalk.csv][./icstvst-csv-3-truss-3rd-catwalk.csv]] or [[./icstvst-csv-3-truss-flown.csv][./icstvst-csv-3-truss-flown.csv]] |
 
 For loading the csv files in the vst, open the ~gear~ in the top left of the vst gui, go to ~speaker~ ~Import/Export>CSV>Import~ and find the correct file for the appropriate bus.
 
