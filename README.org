@@ -4,7 +4,7 @@
 
 - [[./audio-use-guide.org][Audio Documentation]]
 
-- [[./disis-use-guide.pdf][DISIS Use Guide]]
+- [[./disis-use-guide.pdf][DISIS Use Guide (old and probably outdated)]]
 
 - [[./Reaper-Templates][Reaper Project File Templates]]
 
